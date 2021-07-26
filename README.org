@@ -1,0 +1,31 @@
+#+OPTIONS: ^:nil
+#+STARTUP: align fold hidestars oddeven
+#+LANGUAGE: en
+* U.S. Presidents
+  [[https://apps.ankiweb.net/][Anki]] deck built with [[https://github.com/ohare93/brain-brew][brain-brew]] based on this [[https://ankiweb.net/shared/info/969647708][previous deck]].
+
+** Columns
+   - Order
+   - Name
+   - Time
+   - Party
+   - Home State
+
+   Here "home state" is actually the state the President was born in for lack of a better
+   definition of home state.  It was collected from [[https://www.wikidata.org/][Wikidata]] with the following query:
+
+   #+begin_src sql
+   SELECT ?president ?presidentLabel ?birthLabel WHERE {
+     ?president p:P39 ?stmt;
+                wdt:P31 wd:Q5.
+     OPTIONAL { ?president wdt:P19/wdt:P131+ ?birth.
+                ?birth wdt:P31 wd:Q35657. }
+     
+     ?stmt ps:P39 wd:Q11696 ;
+           pq:P580 ?start.
+
+     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+   } ORDER BY ?start
+   #+end_src
+     
+    

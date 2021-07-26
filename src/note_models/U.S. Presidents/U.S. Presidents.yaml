@@ -1,0 +1,46 @@
+name: U.S. Presidents
+id: c4bd765a-e115-11eb-9575-787b8aba258b
+css_file: src/note_models/U.S. Presidents/style.css
+latex_pre: "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\
+  \\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\
+  \\begin{document}\n"
+fields:
+- name: Order
+  font: Arial
+- name: Name
+  font: Arial
+- name: Time
+  font: Arial
+- name: Party
+  font: Arial
+- name: Face
+  font: Arial
+- name: Home State
+  font: Arial
+templates:
+- name: Order to name
+  html_file: src/note_models/U.S. Presidents/Order to name.html
+- name: Face to name
+  html_file: src/note_models/U.S. Presidents/Face to name.html
+- name: Name to time
+  html_file: src/note_models/U.S. Presidents/Name to time.html
+- name: Name to party
+  html_file: src/note_models/U.S. Presidents/Name to party.html
+- name: Name to Home State
+  html_file: src/note_models/U.S. Presidents/Name to Home State.html
+required_fields_per_template:
+- - 0
+  - any
+  - - 0
+- - 1
+  - any
+  - - 4
+- - 2
+  - any
+  - - 1
+- - 3
+  - any
+  - - 1
+- - 4
+  - any
+  - - 1

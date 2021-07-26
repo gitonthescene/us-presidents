@@ -1,0 +1,1019 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c4bc449c-e115-11eb-9575-787b8aba258b",
+    "deck_config_uuid": "ea78d01e-a5f6-11ea-844b-787b8aba258b",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "ea78d01e-a5f6-11ea-844b-787b8aba258b",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 30,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "Please see the <a href='https://ankiweb.net/shared/info/969647708'>shared deck page</a> for more info.",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "428px-Millard_Fillmore_by_Brady_Studio_1855-65-crop.jpg",
+        "435px-Donald_Trump_Pentagon_2017.jpg",
+        "439px-George_H._W._Bush,_President_of_the_United_States,_1989_official_portrait_cropped.jpg",
+        "441px-Warren_G_Harding-Harris_&_Ewing.jpg",
+        "446px-Obama_portrait_crop.jpg",
+        "450px-37_Lyndon_Johnson_3x4.jpg",
+        "450px-Ulysses_S._Grant_1870-1880.jpg",
+        "453px-George-W-Bush.jpeg",
+        "456px-Zachary_Taylor_restored_and_cropped.png",
+        "459px-Bill_Clinton.jpg",
+        "462px-John_F._Kennedy,_White_House_color_photo_portrait.jpg",
+        "462px-Tyler_Daguerreotype_crop_(restoration).jpg",
+        "463px-Woodrow_Wilson-H&E.jpg",
+        "465px-Grover_Cleveland_-_NARA_-_518139_(cropped).jpg",
+        "466px-Andrew_Johnson_photo_portrait_head_and_shoulders,_c1870-1880-Edit1.jpg",
+        "467px-Calvin_Coolidge,_bw_head_and_shoulders_photo_portrait_seated,_1919.jpg",
+        "467px-Martin_Van_Buren_edit.jpg",
+        "470px-Joe_Biden_official_portrait_2013_cropped_(cropped).jpg",
+        "473px-Benjamin_Harrison,_head_and_shoulders_bw_photo,_1896.jpg",
+        "473px-James_Abram_Garfield,_photo_portrait_seated.jpg",
+        "479px-Andrew_Jackson_Daguerrotype-crop.jpg",
+        "479px-Official_Portrait_of_President_Reagan_1981.jpg",
+        "479px-Official_Presidential_portrait_of_John_Adams_(by_John_Trumbull,_circa_1792).jpg",
+        "480px-Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+        "488px-JimmyCarterPortrait2.jpg",
+        "489px-Franklin_Pierce_-_1.jpg",
+        "493px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+        "493px-James_Madison.jpg",
+        "493px-President_Rutherford_Hayes_1870_-_1880_Restored.jpg",
+        "498px-James_Monroe_White_House_portrait_1819.gif",
+        "502px-William_Henry_Harrison_daguerreotype_edit.jpg",
+        "503px-Mckinley.jpg",
+        "503px-Thomas_Jefferson_by_Rembrandt_Peale,_1800.jpg",
+        "517px-Chester_Alan_Arthur.jpg",
+        "551px-James_Buchanan.jpg",
+        "Truman_58-766-09.jpg",
+        "lossless-page1-459px-JQA_Photo.tif.png",
+        "lossy-page1-415px-JKP.tif.jpg",
+        "lossy-page1-416px-FDR_1944_Color_Portrait.tif.jpg",
+        "lossy-page1-424px-President_Roosevelt_-_Pach_Bros.tif.jpg",
+        "lossy-page1-446px-Gerald_Ford_-_NARA_-_530680.tif.jpg",
+        "lossy-page1-450px-President_Hoover_portrait.tif.jpg",
+        "lossy-page1-450px-William_Howard_Taft,_head-and-shoulders_portrait,_facing_front.tif.jpg",
+        "lossy-page1-483px-President_Eisenhower_Portrait_1959.tif.jpg",
+        "lossy-page1-493px-Richard_M._Nixon,_ca._1935_-_1982_-_NARA_-_530679.tif.jpg"
+    ],
+    "name": "U.S. Presidents",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Order",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Name",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Time",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Party",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Face",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Home State",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "U.S. Presidents",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        4
+                    ]
+                ],
+                [
+                    2,
+                    "any",
+                    [
+                        1
+                    ]
+                ],
+                [
+                    3,
+                    "any",
+                    [
+                        1
+                    ]
+                ],
+                [
+                    4,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Name}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Order to name",
+                    "ord": 0,
+                    "qfmt": "{{Order}}",
+                    "scratchPad": 0
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Name}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Face to name",
+                    "ord": 1,
+                    "qfmt": "{{Face}}",
+                    "scratchPad": 0
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Time}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Name to time",
+                    "ord": 2,
+                    "qfmt": "When was {{Name}} in power?",
+                    "scratchPad": 0
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Party}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Name to party",
+                    "ord": 3,
+                    "qfmt": "What party did {{Name}} belong to?",
+                    "scratchPad": 0
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Home State}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Name to Home State",
+                    "ord": 4,
+                    "qfmt": "What is {{Name}}'s home state?",
+                    "scratchPad": 0
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1st",
+                "George Washington",
+                "1789-1797",
+                "Unaffiliated",
+                "<img src=\"493px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg\" />",
+                "Virginia"
+            ],
+            "flags": 0,
+            "guid": "q=.Op+2yrB",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2nd",
+                "John Adams",
+                "1797-1801",
+                "Federalist",
+                "<img src=\"479px-Official_Presidential_portrait_of_John_Adams_(by_John_Trumbull,_circa_1792).jpg\" />",
+                "Massachusetts"
+            ],
+            "flags": 0,
+            "guid": "g1uTRyy}cQ",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "3rd",
+                "Thomas Jefferson",
+                "1801-1809",
+                "Democratic-Republican",
+                "<img src=\"503px-Thomas_Jefferson_by_Rembrandt_Peale,_1800.jpg\" />",
+                "Virginia"
+            ],
+            "flags": 0,
+            "guid": "AkT`,64}!C",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "4th",
+                "James Madison",
+                "1809-1817",
+                "Democratic-Republican",
+                "<img src=\"493px-James_Madison.jpg\" />",
+                "Virginia"
+            ],
+            "flags": 0,
+            "guid": "EG[Xk-][Ay",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "5th",
+                "James Monroe",
+                "1817-1825",
+                "Democratic-Republican",
+                "<img src=\"498px-James_Monroe_White_House_portrait_1819.gif\" />",
+                "Virginia"
+            ],
+            "flags": 0,
+            "guid": "lL.J?=d/IL",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "6th",
+                "John Quincy Adams",
+                "1825-1829",
+                "Democratic-Republican",
+                "<img src=\"lossless-page1-459px-JQA_Photo.tif.png\" />",
+                "Massachusetts"
+            ],
+            "flags": 0,
+            "guid": "s8Qm1ib.@=",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "7th",
+                "Andrew Jackson",
+                "1829-1837",
+                "Democratic",
+                "<img src=\"479px-Andrew_Jackson_Daguerrotype-crop.jpg\" />",
+                "North Carolina"
+            ],
+            "flags": 0,
+            "guid": "FvO#O!95L)",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8th",
+                "Martin Van Buren",
+                "1837-1841",
+                "Democratic",
+                "<img src=\"467px-Martin_Van_Buren_edit.jpg\" />",
+                "New York"
+            ],
+            "flags": 0,
+            "guid": "KSq(|;nvGS",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "9th",
+                "William Henry Harrison",
+                "1841-1841",
+                "Whig",
+                "<img src=\"502px-William_Henry_Harrison_daguerreotype_edit.jpg\" />",
+                "Virginia"
+            ],
+            "flags": 0,
+            "guid": "fsi&7%`YIT",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "10th",
+                "John Tyler",
+                "1841-1845",
+                "Whig, Unaffiliated",
+                "<img src=\"462px-Tyler_Daguerreotype_crop_(restoration).jpg\" />",
+                "Virginia"
+            ],
+            "flags": 0,
+            "guid": "fpn`+z(&&^",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "11th",
+                "James K. Polk",
+                "1845-1849",
+                "Democratic",
+                "<img src=\"lossy-page1-415px-JKP.tif.jpg\" />",
+                "North Carolina"
+            ],
+            "flags": 0,
+            "guid": "IO@hBeABy,",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "12th",
+                "Zachary Taylor",
+                "1849-1850",
+                "Whig",
+                "<img src=\"456px-Zachary_Taylor_restored_and_cropped.png\" />",
+                "Virginia"
+            ],
+            "flags": 0,
+            "guid": "zO<@ID29}.",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "13th",
+                "Millard Fillmore",
+                "1850-1853",
+                "Whig",
+                "<img src=\"428px-Millard_Fillmore_by_Brady_Studio_1855-65-crop.jpg\" />",
+                "New York"
+            ],
+            "flags": 0,
+            "guid": "e,6DI_O*fu",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "14th",
+                "Franklin Pierce",
+                "1853-1857",
+                "Democratic",
+                "<img src=\"489px-Franklin_Pierce_-_1.jpg\" />",
+                "New Hampshire"
+            ],
+            "flags": 0,
+            "guid": "f7c*sqQ>O|",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "15th",
+                "James Buchanan",
+                "1857-1861",
+                "Democratic",
+                "<img src=\"551px-James_Buchanan.jpg\" />",
+                "Pennsylvania"
+            ],
+            "flags": 0,
+            "guid": "q9DSu.wm>o",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "16th",
+                "Abraham Lincoln",
+                "1861-1865",
+                "Republican (National Union)",
+                "<img src=\"480px-Abraham_Lincoln_O-77_matte_collodion_print.jpg\" />",
+                "Kentucky"
+            ],
+            "flags": 0,
+            "guid": "p]bT-UHJWp",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "17th",
+                "Andrew Johnson",
+                "1865-1869",
+                "National Union, Democratic",
+                "<img src=\"466px-Andrew_Johnson_photo_portrait_head_and_shoulders,_c1870-1880-Edit1.jpg\" />",
+                "North Carolina"
+            ],
+            "flags": 0,
+            "guid": "zafke^JSwU",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "18th",
+                "Ulysses S. Grant",
+                "1869-1877",
+                "Republican",
+                "<img src=\"450px-Ulysses_S._Grant_1870-1880.jpg\" />",
+                "Ohio"
+            ],
+            "flags": 0,
+            "guid": "v%M^X<p*_:",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "19th",
+                "Rutherford B. Hayes",
+                "1877-1881",
+                "Republican",
+                "<img src=\"493px-President_Rutherford_Hayes_1870_-_1880_Restored.jpg\" />",
+                "Ohio"
+            ],
+            "flags": 0,
+            "guid": "f?](3l=OD0",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "20th",
+                "James A. Garfield",
+                "1881-1881",
+                "Republican",
+                "<img src=\"473px-James_Abram_Garfield,_photo_portrait_seated.jpg\" />",
+                "Ohio"
+            ],
+            "flags": 0,
+            "guid": "DD?&IikZP*",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "21st",
+                "Chester A. Arthur",
+                "1881-1885",
+                "Republican",
+                "<img src=\"517px-Chester_Alan_Arthur.jpg\" />",
+                "Vermont"
+            ],
+            "flags": 0,
+            "guid": "oy:L:5g].f",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "22nd",
+                "Grover Cleveland(1)",
+                "1885-1889",
+                "Democratic",
+                "<img src=\"465px-Grover_Cleveland_-_NARA_-_518139_(cropped).jpg\" />",
+                "New Jersey"
+            ],
+            "flags": 0,
+            "guid": "oy1JGIuH,L",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "23rd",
+                "Benjamin Harrison",
+                "1889-1893",
+                "Republican",
+                "<img src=\"473px-Benjamin_Harrison,_head_and_shoulders_bw_photo,_1896.jpg\" />",
+                "Ohio"
+            ],
+            "flags": 0,
+            "guid": "F:p}fvDnMJ",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "24th",
+                "Grover Cleveland(2)",
+                "1893-1897",
+                "Democratic",
+                "<img src=\"465px-Grover_Cleveland_-_NARA_-_518139_(cropped).jpg\" />",
+                "New Jersey"
+            ],
+            "flags": 0,
+            "guid": "Pg#uKUzd]`",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "25th",
+                "William McKinley",
+                "1897-1901",
+                "Republican",
+                "<img src=\"503px-Mckinley.jpg\" />",
+                "Ohio"
+            ],
+            "flags": 0,
+            "guid": "L.@LI3&Fi",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "26th",
+                "Theodore Roosevelt",
+                "1901-1909",
+                "Republican",
+                "<img src=\"lossy-page1-424px-President_Roosevelt_-_Pach_Bros.tif.jpg\" />",
+                "New York"
+            ],
+            "flags": 0,
+            "guid": "HN3KZzk]n",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "27th",
+                "William Howard Taft",
+                "1909-1913",
+                "Republican",
+                "<img src=\"lossy-page1-450px-William_Howard_Taft,_head-and-shoulders_portrait,_facing_front.tif.jpg\" />",
+                "Ohio"
+            ],
+            "flags": 0,
+            "guid": "D7./;X5b(X",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "28th",
+                "Woodrow Wilson",
+                "1913-1921",
+                "Democratic",
+                "<img src=\"463px-Woodrow_Wilson-H&E.jpg\" />",
+                "Virginia"
+            ],
+            "flags": 0,
+            "guid": "x>nv)zn}RG",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "29th",
+                "Warren G. Harding",
+                "1921-1923",
+                "Republican",
+                "<img src=\"441px-Warren_G_Harding-Harris_&_Ewing.jpg\" />",
+                "Ohio"
+            ],
+            "flags": 0,
+            "guid": "NuW9p~C~iJ",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "30th",
+                "Calvin Coolidge",
+                "1923-1929",
+                "Republican",
+                "<img src=\"467px-Calvin_Coolidge,_bw_head_and_shoulders_photo_portrait_seated,_1919.jpg\" />",
+                "Vermont"
+            ],
+            "flags": 0,
+            "guid": "tfzfgZ,+jR",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "31st",
+                "Herbert Hoover",
+                "1929-1933",
+                "Republican",
+                "<img src=\"lossy-page1-450px-President_Hoover_portrait.tif.jpg\" />",
+                "Iowa"
+            ],
+            "flags": 0,
+            "guid": "c<i7uZzq0f",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "32nd",
+                "Franklin D. Roosevelt",
+                "1933-1945",
+                "Democratic",
+                "<img src=\"lossy-page1-416px-FDR_1944_Color_Portrait.tif.jpg\" />",
+                "New York"
+            ],
+            "flags": 0,
+            "guid": "sO1{-|t_6@",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "33rd",
+                "Harry S. Truman",
+                "1945-1953",
+                "Democratic",
+                "<img src=\"Truman_58-766-09.jpg\" />",
+                "Missouri"
+            ],
+            "flags": 0,
+            "guid": "c=#1MiX{gD",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "34th",
+                "Dwight D. Eisenhower",
+                "1953-1961",
+                "Republican",
+                "<img src=\"lossy-page1-483px-President_Eisenhower_Portrait_1959.tif.jpg\" />",
+                "Texas"
+            ],
+            "flags": 0,
+            "guid": "b()?cf_tv/",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "35th",
+                "John F. Kennedy",
+                "1961-1963",
+                "Democratic",
+                "<img src=\"462px-John_F._Kennedy,_White_House_color_photo_portrait.jpg\" />",
+                "Massachusetts"
+            ],
+            "flags": 0,
+            "guid": "LKL|*#i6ml",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "36th",
+                "Lyndon B. Johnson",
+                "1963-1969",
+                "Democratic",
+                "<img src=\"450px-37_Lyndon_Johnson_3x4.jpg\" />",
+                "Texas"
+            ],
+            "flags": 0,
+            "guid": "ivfN-o}/&W",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "37th",
+                "Richard Nixon",
+                "1969-1974",
+                "Republican",
+                "<img src=\"lossy-page1-493px-Richard_M._Nixon,_ca._1935_-_1982_-_NARA_-_530679.tif.jpg\" />",
+                "California"
+            ],
+            "flags": 0,
+            "guid": "li|r+qcy3`",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "38th",
+                "Gerald Ford",
+                "1974-1977",
+                "Republican",
+                "<img src=\"lossy-page1-446px-Gerald_Ford_-_NARA_-_530680.tif.jpg\" />",
+                "Nebraska"
+            ],
+            "flags": 0,
+            "guid": "j!ti]D{a{%",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "39th",
+                "Jimmy Carter",
+                "1977-1981",
+                "Democratic",
+                "<img src=\"488px-JimmyCarterPortrait2.jpg\" />",
+                "Georgia"
+            ],
+            "flags": 0,
+            "guid": "nK]:`;:SC#",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "40th",
+                "Ronald Reagan",
+                "1981-1989",
+                "Republican",
+                "<img src=\"479px-Official_Portrait_of_President_Reagan_1981.jpg\" />",
+                "Illinois"
+            ],
+            "flags": 0,
+            "guid": "ILXb?JEWa%",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "41st",
+                "George H. W. Bush",
+                "1989-1993",
+                "Republican",
+                "<img src=\"439px-George_H._W._Bush,_President_of_the_United_States,_1989_official_portrait_cropped.jpg\" />",
+                "Massachusetts"
+            ],
+            "flags": 0,
+            "guid": "E[-yQ=WDm@",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "42nd",
+                "Bill Clinton",
+                "1993-2001",
+                "Democratic",
+                "<img src=\"459px-Bill_Clinton.jpg\" />",
+                "Arkansas"
+            ],
+            "flags": 0,
+            "guid": "I^~G)nU7e>",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "43rd",
+                "George W. Bush",
+                "2001-2009",
+                "Republican",
+                "<img src=\"453px-George-W-Bush.jpeg\" />",
+                "Connecticut"
+            ],
+            "flags": 0,
+            "guid": "q[pv<J$)[$",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "44th",
+                "Barack Obama",
+                "2009-2017",
+                "Democratic",
+                "<img src=\"446px-Obama_portrait_crop.jpg\" />",
+                "Hawaii"
+            ],
+            "flags": 0,
+            "guid": "ERN1PUWMu6",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "45th",
+                "Donald Trump",
+                "2017-2021",
+                "Republican",
+                "<img src=\"435px-Donald_Trump_Pentagon_2017.jpg\" />",
+                "New York"
+            ],
+            "flags": 0,
+            "guid": "xZDU/>dL*s",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "46th",
+                "Joe Biden",
+                "2021-",
+                "Democratic",
+                "<a href=\"https://upload.wikimedia.org/wikipedia/commons/9/99/Joe_Biden_official_portrait_2013_cropped_%28cropped%29.jpg\"><img src=\"470px-Joe_Biden_official_portrait_2013_cropped_(cropped).jpg\"></a>",
+                "Pennsylvania"
+            ],
+            "flags": 0,
+            "guid": "IyFg:dlsTP",
+            "note_model_uuid": "c4bd765a-e115-11eb-9575-787b8aba258b",
+            "tags": []
+        }
+    ]
+}
