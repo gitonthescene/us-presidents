@@ -27,5 +27,15 @@
      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
    } ORDER BY ?start
    #+end_src
+
+** Loading
+   The output of Brain Brew can be found in the ~build/~ folder.  This is in [[https://github.com/Stvad/CrowdAnki][CrowdAnki]] format and
+   can be imported into Anki using the [[https://ankiweb.net/shared/info/1788670778][CrowdAnki plugin]].
      
-    
+** Editing
+   Per the Brain Brew instructions new rows can simply be added to the csv files in the ~data/~
+   folder.
+
+   When adding new cards, I've found it's easiest to first edit the deck in Anki by creating sample
+   data, exporting that on top of the original deck, filling out the rest of the data and then
+   building the edited deck Brain Brew.
